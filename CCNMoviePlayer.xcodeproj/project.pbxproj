@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512466671CC721FA00B5CD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512466661CC721FA00B5CD87 /* main.m */; };
+		5124666A1CC721FA00B5CD87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512466691CC721FA00B5CD87 /* AppDelegate.m */; };
+		5124666D1CC721FA00B5CD87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124666C1CC721FA00B5CD87 /* ViewController.m */; };
+		512466701CC721FA00B5CD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5124666E1CC721FA00B5CD87 /* Main.storyboard */; };
+		512466731CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 512466711CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodeld */; };
+		512466751CC721FA00B5CD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512466741CC721FA00B5CD87 /* Assets.xcassets */; };
+		512466781CC721FA00B5CD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512466761CC721FA00B5CD87 /* LaunchScreen.storyboard */; };
+		512466831CC721FA00B5CD87 /* CCNMoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512466821CC721FA00B5CD87 /* CCNMoviePlayerTests.m */; };
+		5124668E1CC721FA00B5CD87 /* CCNMoviePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124668D1CC721FA00B5CD87 /* CCNMoviePlayerUITests.m */; };
+		5124669D1CC7247400B5CD87 /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124669C1CC7247400B5CD87 /* MoviePlayerViewController.m */; };
+		512466A21CC7317400B5CD87 /* MainScreenMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512466A11CC7317400B5CD87 /* MainScreenMoviePlayerViewController.m */; };
+		512466A41CC73B6E00B5CD87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512466A31CC73B6E00B5CD87 /* AVFoundation.framework */; };
+		512466AF1CCE6D8F00B5CD87 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512466AE1CCE6D8F00B5CD87 /* MediaPlayer.framework */; };
+		512466B21CCF223800B5CD87 /* NavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512466B11CCF223800B5CD87 /* NavRootViewController.m */; };
+		512466B61CCF2AD100B5CD87 /* progressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512466B31CCF2AD100B5CD87 /* progressThumb@2x.png */; };
+		512769111CD0A37F00FC7D5E /* chenyifaer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 512769101CD0A37F00FC7D5E /* chenyifaer.mp4 */; };
+		DD64FFEDB6AA96598911E17A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EB96D1251CBDD581CA1659 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5124667F1CC721FA00B5CD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5124665A1CC721FA00B5CD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512466611CC721FA00B5CD87;
+			remoteInfo = CCNMoviePlayer;
+		};
+		5124668A1CC721FA00B5CD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5124665A1CC721FA00B5CD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512466611CC721FA00B5CD87;
+			remoteInfo = CCNMoviePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E85A342A21D854F24B3575 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3C96E04392AED4B37BA32D39 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		512466621CC721FA00B5CD87 /* CCNMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCNMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512466661CC721FA00B5CD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		512466681CC721FA00B5CD87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		512466691CC721FA00B5CD87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5124666B1CC721FA00B5CD87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5124666C1CC721FA00B5CD87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5124666F1CC721FA00B5CD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512466721CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCNMoviePlayer.xcdatamodel; sourceTree = "<group>"; };
+		512466741CC721FA00B5CD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512466771CC721FA00B5CD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		512466791CC721FA00B5CD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5124667E1CC721FA00B5CD87 /* CCNMoviePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNMoviePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512466821CC721FA00B5CD87 /* CCNMoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCNMoviePlayerTests.m; sourceTree = "<group>"; };
+		512466841CC721FA00B5CD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512466891CC721FA00B5CD87 /* CCNMoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNMoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5124668D1CC721FA00B5CD87 /* CCNMoviePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCNMoviePlayerUITests.m; sourceTree = "<group>"; };
+		5124668F1CC721FA00B5CD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5124669B1CC7247400B5CD87 /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		5124669C1CC7247400B5CD87 /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		512466A01CC7317400B5CD87 /* MainScreenMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenMoviePlayerViewController.h; sourceTree = "<group>"; };
+		512466A11CC7317400B5CD87 /* MainScreenMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenMoviePlayerViewController.m; sourceTree = "<group>"; };
+		512466A31CC73B6E00B5CD87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		512466AE1CCE6D8F00B5CD87 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		512466B01CCF223800B5CD87 /* NavRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavRootViewController.h; sourceTree = "<group>"; };
+		512466B11CCF223800B5CD87 /* NavRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavRootViewController.m; sourceTree = "<group>"; };
+		512466B31CCF2AD100B5CD87 /* progressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progressThumb@2x.png"; path = "CCNMoviePlayer/progressThumb@2x.png"; sourceTree = "<group>"; };
+		512769101CD0A37F00FC7D5E /* chenyifaer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = chenyifaer.mp4; path = CCNMoviePlayer/chenyifaer.mp4; sourceTree = "<group>"; };
+		82EB96D1251CBDD581CA1659 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5124665F1CC721FA00B5CD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512466AF1CCE6D8F00B5CD87 /* MediaPlayer.framework in Frameworks */,
+				512466A41CC73B6E00B5CD87 /* AVFoundation.framework in Frameworks */,
+				DD64FFEDB6AA96598911E17A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124667B1CC721FA00B5CD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512466861CC721FA00B5CD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06052E14A9299F5D70AC9D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512466AE1CCE6D8F00B5CD87 /* MediaPlayer.framework */,
+				82EB96D1251CBDD581CA1659 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		512466591CC721FA00B5CD87 = {
+			isa = PBXGroup;
+			children = (
+				512769101CD0A37F00FC7D5E /* chenyifaer.mp4 */,
+				512466B31CCF2AD100B5CD87 /* progressThumb@2x.png */,
+				512466A31CC73B6E00B5CD87 /* AVFoundation.framework */,
+				512466641CC721FA00B5CD87 /* CCNMoviePlayer */,
+				512466811CC721FA00B5CD87 /* CCNMoviePlayerTests */,
+				5124668C1CC721FA00B5CD87 /* CCNMoviePlayerUITests */,
+				512466631CC721FA00B5CD87 /* Products */,
+				F4EC46C7988B8CDC9639FE6F /* Pods */,
+				06052E14A9299F5D70AC9D71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		512466631CC721FA00B5CD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512466621CC721FA00B5CD87 /* CCNMoviePlayer.app */,
+				5124667E1CC721FA00B5CD87 /* CCNMoviePlayerTests.xctest */,
+				512466891CC721FA00B5CD87 /* CCNMoviePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512466641CC721FA00B5CD87 /* CCNMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				512466681CC721FA00B5CD87 /* AppDelegate.h */,
+				512466691CC721FA00B5CD87 /* AppDelegate.m */,
+				512466B01CCF223800B5CD87 /* NavRootViewController.h */,
+				512466B11CCF223800B5CD87 /* NavRootViewController.m */,
+				5124666B1CC721FA00B5CD87 /* ViewController.h */,
+				5124666C1CC721FA00B5CD87 /* ViewController.m */,
+				5124669B1CC7247400B5CD87 /* MoviePlayerViewController.h */,
+				5124669C1CC7247400B5CD87 /* MoviePlayerViewController.m */,
+				512466A01CC7317400B5CD87 /* MainScreenMoviePlayerViewController.h */,
+				512466A11CC7317400B5CD87 /* MainScreenMoviePlayerViewController.m */,
+				5124666E1CC721FA00B5CD87 /* Main.storyboard */,
+				512466741CC721FA00B5CD87 /* Assets.xcassets */,
+				512466761CC721FA00B5CD87 /* LaunchScreen.storyboard */,
+				512466791CC721FA00B5CD87 /* Info.plist */,
+				512466711CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodeld */,
+				512466651CC721FA00B5CD87 /* Supporting Files */,
+			);
+			path = CCNMoviePlayer;
+			sourceTree = "<group>";
+		};
+		512466651CC721FA00B5CD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512466661CC721FA00B5CD87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512466811CC721FA00B5CD87 /* CCNMoviePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				512466821CC721FA00B5CD87 /* CCNMoviePlayerTests.m */,
+				512466841CC721FA00B5CD87 /* Info.plist */,
+			);
+			path = CCNMoviePlayerTests;
+			sourceTree = "<group>";
+		};
+		5124668C1CC721FA00B5CD87 /* CCNMoviePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5124668D1CC721FA00B5CD87 /* CCNMoviePlayerUITests.m */,
+				5124668F1CC721FA00B5CD87 /* Info.plist */,
+			);
+			path = CCNMoviePlayerUITests;
+			sourceTree = "<group>";
+		};
+		F4EC46C7988B8CDC9639FE6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E85A342A21D854F24B3575 /* Pods.debug.xcconfig */,
+				3C96E04392AED4B37BA32D39 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512466611CC721FA00B5CD87 /* CCNMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512466921CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayer" */;
+			buildPhases = (
+				D17442E5BA5970EE58639D3E /* Check Pods Manifest.lock */,
+				5124665E1CC721FA00B5CD87 /* Sources */,
+				5124665F1CC721FA00B5CD87 /* Frameworks */,
+				512466601CC721FA00B5CD87 /* Resources */,
+				F840902B523FF95CF3192FA8 /* Embed Pods Frameworks */,
+				114773CF045B719DD8536EFB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCNMoviePlayer;
+			productName = CCNMoviePlayer;
+			productReference = 512466621CC721FA00B5CD87 /* CCNMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5124667D1CC721FA00B5CD87 /* CCNMoviePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512466951CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayerTests" */;
+			buildPhases = (
+				5124667A1CC721FA00B5CD87 /* Sources */,
+				5124667B1CC721FA00B5CD87 /* Frameworks */,
+				5124667C1CC721FA00B5CD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512466801CC721FA00B5CD87 /* PBXTargetDependency */,
+			);
+			name = CCNMoviePlayerTests;
+			productName = CCNMoviePlayerTests;
+			productReference = 5124667E1CC721FA00B5CD87 /* CCNMoviePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		512466881CC721FA00B5CD87 /* CCNMoviePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512466981CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayerUITests" */;
+			buildPhases = (
+				512466851CC721FA00B5CD87 /* Sources */,
+				512466861CC721FA00B5CD87 /* Frameworks */,
+				512466871CC721FA00B5CD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5124668B1CC721FA00B5CD87 /* PBXTargetDependency */,
+			);
+			name = CCNMoviePlayerUITests;
+			productName = CCNMoviePlayerUITests;
+			productReference = 512466891CC721FA00B5CD87 /* CCNMoviePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5124665A1CC721FA00B5CD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CCN;
+				TargetAttributes = {
+					512466611CC721FA00B5CD87 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5124667D1CC721FA00B5CD87 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 512466611CC721FA00B5CD87;
+					};
+					512466881CC721FA00B5CD87 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 512466611CC721FA00B5CD87;
+					};
+				};
+			};
+			buildConfigurationList = 5124665D1CC721FA00B5CD87 /* Build configuration list for PBXProject "CCNMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512466591CC721FA00B5CD87;
+			productRefGroup = 512466631CC721FA00B5CD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512466611CC721FA00B5CD87 /* CCNMoviePlayer */,
+				5124667D1CC721FA00B5CD87 /* CCNMoviePlayerTests */,
+				512466881CC721FA00B5CD87 /* CCNMoviePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512466601CC721FA00B5CD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512466781CC721FA00B5CD87 /* LaunchScreen.storyboard in Resources */,
+				512466B61CCF2AD100B5CD87 /* progressThumb@2x.png in Resources */,
+				512769111CD0A37F00FC7D5E /* chenyifaer.mp4 in Resources */,
+				512466751CC721FA00B5CD87 /* Assets.xcassets in Resources */,
+				512466701CC721FA00B5CD87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124667C1CC721FA00B5CD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512466871CC721FA00B5CD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114773CF045B719DD8536EFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D17442E5BA5970EE58639D3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F840902B523FF95CF3192FA8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5124665E1CC721FA00B5CD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512466731CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodeld in Sources */,
+				512466B21CCF223800B5CD87 /* NavRootViewController.m in Sources */,
+				512466A21CC7317400B5CD87 /* MainScreenMoviePlayerViewController.m in Sources */,
+				5124666D1CC721FA00B5CD87 /* ViewController.m in Sources */,
+				5124666A1CC721FA00B5CD87 /* AppDelegate.m in Sources */,
+				5124669D1CC7247400B5CD87 /* MoviePlayerViewController.m in Sources */,
+				512466671CC721FA00B5CD87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124667A1CC721FA00B5CD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512466831CC721FA00B5CD87 /* CCNMoviePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512466851CC721FA00B5CD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124668E1CC721FA00B5CD87 /* CCNMoviePlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512466801CC721FA00B5CD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512466611CC721FA00B5CD87 /* CCNMoviePlayer */;
+			targetProxy = 5124667F1CC721FA00B5CD87 /* PBXContainerItemProxy */;
+		};
+		5124668B1CC721FA00B5CD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512466611CC721FA00B5CD87 /* CCNMoviePlayer */;
+			targetProxy = 5124668A1CC721FA00B5CD87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5124666E1CC721FA00B5CD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5124666F1CC721FA00B5CD87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512466761CC721FA00B5CD87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512466771CC721FA00B5CD87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512466901CC721FA00B5CD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512466911CC721FA00B5CD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512466931CC721FA00B5CD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E85A342A21D854F24B3575 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCNMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/CCNMoviePlayer/**";
+			};
+			name = Debug;
+		};
+		512466941CC721FA00B5CD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C96E04392AED4B37BA32D39 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCNMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/CCNMoviePlayer/**";
+			};
+			name = Release;
+		};
+		512466961CC721FA00B5CD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCNMoviePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCNMoviePlayer.app/CCNMoviePlayer";
+			};
+			name = Debug;
+		};
+		512466971CC721FA00B5CD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCNMoviePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCNMoviePlayer.app/CCNMoviePlayer";
+			};
+			name = Release;
+		};
+		512466991CC721FA00B5CD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCNMoviePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCNMoviePlayer;
+			};
+			name = Debug;
+		};
+		5124669A1CC721FA00B5CD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCNMoviePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCNMoviePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5124665D1CC721FA00B5CD87 /* Build configuration list for PBXProject "CCNMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512466901CC721FA00B5CD87 /* Debug */,
+				512466911CC721FA00B5CD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512466921CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512466931CC721FA00B5CD87 /* Debug */,
+				512466941CC721FA00B5CD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512466951CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512466961CC721FA00B5CD87 /* Debug */,
+				512466971CC721FA00B5CD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512466981CC721FA00B5CD87 /* Build configuration list for PBXNativeTarget "CCNMoviePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512466991CC721FA00B5CD87 /* Debug */,
+				5124669A1CC721FA00B5CD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		512466711CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				512466721CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodel */,
+			);
+			currentVersion = 512466721CC721FA00B5CD87 /* CCNMoviePlayer.xcdatamodel */;
+			path = CCNMoviePlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5124665A1CC721FA00B5CD87 /* Project object */;
+}
