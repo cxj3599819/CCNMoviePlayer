@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8FEACC8D08F9B9626C56C38735191CC337CE002",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E8FEACC8D08F9B9626C56C38735191CC337CE002" : 0,
+    "3606027FD9E47AF1F23408772C32715E193F0269" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E8C19F3-AEB4-4490-8BE1-CFFA435E4B8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E8FEACC8D08F9B9626C56C38735191CC337CE002" : "CCNMoviePlayer\/",
+    "3606027FD9E47AF1F23408772C32715E193F0269" : "CCNMoviePlayer\/CCNMoviePlayer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CCNMoviePlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CCNMoviePlayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cxj3599819\/CCNMoviePlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3606027FD9E47AF1F23408772C32715E193F0269"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cxj3599819\/CCNMoviePlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8FEACC8D08F9B9626C56C38735191CC337CE002"
+    }
+  ]
+}
